@@ -22,14 +22,6 @@ source .env && python scripts/rollout-setup_aksk.py  # 一键配置 Platform AKS
 python scripts/rollout-run_eval.py            # 交互式跑评测
 ```
 
-Key 获取方式：
-- `AuthGateway_ACCESS_TOKEN`: [创建 Personal Token](https://internal.company.com/tokens/user-token-list)
-- `OPENAI_API_KEY`: [Internal_AI_Service Staff API Key 使用指南](https://internal-docs.company.com/wiki/GtxdwTKG5ikbXukjQP4cSXIXnBd)
-- `ANTHROPIC_API_KEY`: 和 `OPENAI_API_KEY` 一样
-- `SEARCH_TOKEN`: [Search 服务(v3版)鉴权&限流](https://internal-docs.company.com/wiki/I5WxwRvlDirliokQ0EUc9KOhnGe)
-- `DATASOURCE_KEY`: 找 [Colleague Name 2]老师获取（data_source 系列工具需要）
-- `QUERY_ENGINE_API_KEY` / `QUERY_ENGINE_API_SECRET`: 联系 **[Colleague Name 3]** 申请（数仓查询 + 反馈查询）
-
 ## 仓库结构
 
 ```
