@@ -1,4 +1,4 @@
-# Eval Skill  产品体验 Benchmark 全流程
+# Bad Case to Eval-Skill
 
 从发现 badcase 到构造 benchmark、跑评测、分析结果的完整闭环。给 AI Agent 用的 skill，也可以人工按流程操作。
 
@@ -143,14 +143,3 @@ Key 获取方式：
 - **Python 3.10+**
 - **Node 18+**（Platform CLI 用）
 - **Platform CLI**：本仓库 `Platform/` 目录已内置，无需额外安装，直接 `node Platform/Platform.mjs` 使用
-
-## 相关文档
-
-- [Internal Evaluation Platform](https://internal.company.com/)（源码：[Harness/Orbiverse](https://internal.company.com/harness/orbiverse)）
-- [价值观文档目录](https://internal-docs.company.com/wiki/SwnvwNW9ViXTMLkOzmacqbtqnFe)
-- [Internal_AI_Service模型列表](https://internal.company.com/models)
-
-## 相关指南
-
-- [Evalskill 零基础使用指南](https://internal-docs.company.com/docx/G4jbdG1LXoGUh2xC1fpcgbTxnad)
-- [Query Engine API 配置使用指南](https://internal-docs.company.com/docx/XHMLdOgXtodgRwxoN9hcEiAKnZf)
