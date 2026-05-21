@@ -1,0 +1,34 @@
+# ============================================================
+# Eval Skill 配置
+# 复制本文件为 config.yaml 后按需修改：cp config.example.yaml config.yaml
+# ============================================================
+
+# ---------- 数据路径 ----------
+
+# badcase 收录表（CSV）
+badcase_csv: ~/workspace/model_bad_case.csv
+
+# trace 文件存放目录（get_message.py 拉取的对话轨迹）
+trace_dir: chatlet/trace
+
+# 评测结果输出目录
+output_dir: batch
+
+# Judge 结果输出目录
+judge_output_dir: judge/result
+
+# ---------- 服务地址 ----------
+
+# Chatty 环境（batch_chatty.py 用）
+chatty_url: https://chatty.dev.AI_Platform.team
+
+# Internal Evaluation Platform地址（默认值，一般不用改）
+# orbit_api_base: https://platform.internal.ai.com
+
+# ---------- 模型配置 ----------
+
+# Judge 默认模型（judge.py 用）
+# judge_model: gpt-5.4
+
+# Bloom 场景生成默认模型
+# bloom_model: gpt-5.4

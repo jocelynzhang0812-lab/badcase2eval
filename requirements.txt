@@ -1,0 +1,26 @@
+# 基础依赖
+openai>=2.20.0,<4.0
+httpx>=0.24,<1.0
+pandas>=1.5,<4.0
+openpyxl>=3.0,<4.0
+python-dotenv>=1.0,<2.0
+click>=8.0,<9.0
+aiohttp>=3.8,<4.0
+tqdm>=4.60,<5.0
+loguru>=0.7,<1.0
+tenacity>=8.0,<10.0
+
+# Platform CLI（Node.js，非 pip 包）
+# 需要 Node 18+，本仓库已内置
+# 直接使用：node Platform/Platform.mjs
+
+# 内部包（需要内部 PyPI 或 GitLab）
+# pip install --extra-index-url https://internal.company.com/simple moonfaith
+# pip install git+ssh://git@dev.internal.company.com:30022/protos/AI_Platform-python.git
+
+# 可选（compare_web_ui.py 用）
+# gradio>=4.0,<6.0
+
+# 可选（batch_chatty.py 用）
+# opentelemetry-api>=1.20,<2.0
+# opentelemetry-sdk>=1.20,<2.0
