@@ -15,8 +15,6 @@
 
 ## 快速开始
 
->  **第一次跑评测？** 看 [examples/QUICKSTART.md](examples/QUICKSTART.md)  10 分钟端到端教程。
-
 ```bash
 pip install -r requirements.txt       # 安装依赖
 cp .env.example .env                  # 填入 AuthGateway_ACCESS_TOKEN / OPENAI_API_KEY 等
